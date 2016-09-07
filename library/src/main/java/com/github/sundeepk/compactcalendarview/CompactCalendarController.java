@@ -65,7 +65,7 @@ class CompactCalendarController {
     private float distanceX;
     private long lastAutoScrollFromFling;
 
-    private boolean shouldShowMondayAsFirstDay = true;
+    private boolean shouldShowMondayAsFirstDay = false;
     private boolean useThreeLetterAbbreviation = false;
     private boolean isSmoothScrolling;
     private boolean isScrolling;
